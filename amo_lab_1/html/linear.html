@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>linear</title>
+</head>
+<body>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Lab_1</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../css/util.css">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <script src="../js/script.js"></script>
+    <!--===============================================================================================-->
+</head>
+<body>
+
+
+<div class="container-login100" style="background-image: url('../images/bg-01.jpg');">
+    <div class="wrap-login100 p-l-55 p-r-55 p-t-80 p-b-30">
+        <form class="login100-form validate-form">
+				<span class="login100-form-title p-b-37">
+					Лінійний алгоритм
+				</span>
+
+            <p class="login100-form-title p-b-37"><img src="../images/linear.png" alt="Фото алгоритму"></p>
+
+            <div class="wrap-input100 validate-input m-b-20" data-validate="Enter a">
+                <input class="input100" type="text" id="input_a" placeholder="Введіть a" required pattern="[+-]?\d+\.?\d*">
+                <span class="focus-input100"></span>
+            </div>
+
+            <div class="wrap-input100 validate-input m-b-25" data-validate = "Enter b">
+                <input class="input100" type="text" id="input_b" placeholder="Введіть b" required pattern="[+-]?\d+\.?\d*">
+                <span class="focus-input100"></span>
+            </div>
+
+            <div class="container-login100-form-btn" id="start">
+                <button class="login100-form-btn" onclick="run()">
+                    Старт
+                </button>
+            </div>
+
+            <div class="text-center p-t-57 p-b-20">
+					<span class="txt2">
+						Імпорт даних з файлу
+					</span>
+            </div>
+
+            <div class="wrap-input100">
+                <input class="input100" type="file" id="file" placeholder="Вибрати" onchange="with_file(this)">
+            </div>
+
+        </form>
+
+
+    </div>
+</div>
+
+
+
+<div id="dropDownSelect1"></div>
+<script src="../js/main.js"></script>
+
+</body>
+</html>
